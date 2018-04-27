@@ -1,0 +1,213 @@
+{
+    "my_info":
+    {
+        "img": "myself.jpg",
+        "links":
+        [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/bethirahul"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rahulbethi"
+            }
+        ]
+    },
+
+    "c1":"====================================================================",
+
+    "page_data":
+    {
+        "cover_img": "cover_photo.jpg",
+        "github_img": "github.png"
+    },
+
+    "c2":"====================================================================",
+
+    "projects":
+    [
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "My Neighborhood Map",
+            "description": "This is my customized map showing some of the places I love in Bay area, California. It is the implementation of Google Maps APIs and FourSquare APIs with Python-Flask app, PostgreSQL database and Knockout JS framework. Hosted on my AWS instance.",
+            "img_url": "https://rahulbethi.com/neighborhood_map",
+            "img": "n_map.png",
+            "links":
+            [
+                {
+                    "name": "Source",
+                    "url": "https://github.com/bethirahul/Neighborhood-map"
+                },
+                {
+                    "name": "Build (Live)",
+                    "url": "https://rahulbethi.com/neighborhood_map"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "My Restaurants' Catalogue",
+            "description": "Web app hosted on AWS instance. It is a web server (Apache 2) with a database (PostgreSQL) to store and edit Restaurants and their food items. Google and Facebook - OAuth 2.0 authentication to login and make modifications.",
+            "img_url": "https://rahulbethi.com/restaurants_catalogue",
+            "img": "res.png",
+            "links":
+            [
+                {
+                    "name": "AWS project Source",
+                    "url": "https://github.com/bethirahul/Restaurants-Web-App-AWS"
+                },
+                {
+                    "name": "Original project Source",
+                    "url": "https://github.com/bethirahul/Restaurant-Web-app"
+                },
+                {
+                    "name": "Build (Live)",
+                    "url": "https://rahulbethi.com/restaurants_catalogue"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Maps (Google Maps APIs)",
+            "description": "Implementation of different Google Maps APIs on a single app. Hosted on my AWS instance. JavaScript, Directions, GeoCoding, Distance Matrix, Street View, Places, AutoComplete",
+            "img_url": "https://rahulbethi.com/restaurants_catalogue",
+            "img": "map.png",
+            "links":
+            [
+                {
+                    "name": "Source",
+                    "url": "https://github.com/bethirahul/Implementation-of-Google-Maps-APIs"
+                },
+                {
+                    "name": "Build (Live)",
+                    "url": "https://rahulbethi.com/gmaps_apis"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Rube Goldberg VR (game)",
+            "description": "A Virtual Reality (VR) puzzle game (Oculus Rift) where the player has to through a ball to the goal by guiding through different objects placed appropriately.",
+            "img_url": "https://www.youtube.com/watch?v=PX3j331hXHQ",
+            "img": "Rube_Goldberg_y.png",
+            "links":
+            [
+                {
+                    "name": "Blog Post",
+                    "url": "https://medium.com/@rahulbethi/rube-goldberg-game-in-vr-rahul-bethi-59c82583eef1"
+                },
+                {
+                    "name": "Source",
+                    "url": "https://github.com/bethirahul/Rube-Goldberg-Game"
+                },
+                {
+                    "name": "Build",
+                    "url": "https://goo.gl/M5DZ7m"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Performance Bounceback VR (game)",
+            "description": "A VR puzzle game compatible with Oculus Rift. Throw the ball on trampolines to score within 1 minute.",
+            "img_url": "https://github.com/bethirahul/Performance-Bounceback",
+            "img": "pb.png",
+            "links":
+            [
+                {
+                    "name": "Source & Build",
+                    "url": "https://github.com/bethirahul/Performance-Bounceback"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "VR in Health-care (Museum)",
+            "description": "A VR android app which takes to a virtual library environment with stations to watch videos about how VR is influencing healthcare.",
+            "img_url": "https://www.youtube.com/watch?v=TeMLeJ3sD0c&t=3s",
+            "img": "museum_y.png",
+            "links":
+            [
+                {
+                    "name": "Blog Post",
+                    "url": "https://medium.com/@rahulbethi/vr-museum-healthcare-a2527c214e4b"
+                },
+                {
+                    "name": "Source & Build (.apk)",
+                    "url": "https://drive.google.com/drive/folders/174JLk05kT-JtUDJ_78JLPVP6_VYzPwdu"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Puzzler VR (game)",
+            "description": "A simple VR android game where a sequence of code is shown and is to reproduced again.",
+            "img_url": "https://www.youtube.com/watch?v=Xf43ULgdhEo",
+            "img": "puzzler_y.png",
+            "links":
+            [
+                {
+                    "name": "Blog Post",
+                    "url": "https://medium.com/@rahulbethi/rahuls-puzzler-game-e1f402fc8118"
+                },
+                {
+                    "name": "Source & Build (.apk)",
+                    "url": "https://github.com/bethirahul/Puzzler-game"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Kinect-Unity game (Masters project)",
+            "description": "A 2.5D scroller game built for children with intellectual ability using Microsoft Kinect device. Children have to jump their way through obstacles to reach the goal.",
+            "img_url": "https://github.com/bethirahul/Kinect-game-for-Children-with-Intellectual-Dissability",
+            "img": "kinect.png",
+            "links":
+            [
+                {
+                    "name": "Source & Build",
+                    "url": "https://github.com/bethirahul/Kinect-game-for-Children-with-Intellectual-Dissability"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Game Programming Portfolio (AIGA)",
+            "description": "My game programming portfolio during my Game programming diploma at Asian Institute of Gaming and Animation, Bengaluru (2015).",
+            "img_url": "https://github.com/bethirahul/Game-Programming-Portfolio-2015",
+            "img": "dave.png",
+            "links":
+            [
+                {
+                    "name": "Source & Build",
+                    "url": "https://github.com/bethirahul/Game-Programming-Portfolio-2015"
+                }
+            ]
+        },
+        {
+            "c":"-------------------------------------------------------------",
+
+            "name": "Log Analysis (PostgreSQL)",
+            "description": "This is an exercise to make PostgreSQL queries on a database using python as a web server. Queries are done on a log database of a news paper server.",
+            "img_url": "https://github.com/bethirahul/Log-Analysis",
+            "img": "log.png",
+            "links":
+            [
+                {
+                    "name": "Source",
+                    "url": "https://github.com/bethirahul/Log-Analysis"
+                }
+            ]
+        }
+    ]
+}

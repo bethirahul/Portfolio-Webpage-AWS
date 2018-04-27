@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rahul's Portfolio</title>
+        <link rel="stylesheet" href="static/css/design.css" media="screen">
+    </head>
+    
+    <body>
+        <div class = "total-page">
+            <main class="main-page">
+                <header>
+                    <figure class="my-photo">
+                        <img src={{ my_img }} alt="My Photo">
+                    </figure>
+                    <h1 class="my-name dark-font">
+                        RAHUL BETHI
+                    </h1>
+                    <p class="nick-name dark-font">
+                        FLANKER
+                    </p>                
+                </header>
+                <div class="empty-space"></div>
+                <div class="seperator"></div>
+                <div class="empty-space"></div>
+                <figure class="cover-photo">
+                    <img src={{ cover_img }} alt="Cover Photo">
+                </figure>
+                <h2 class="featured-heading light-font">
+                    Featured Work
+                </h2>
+                <section class="projects">
+                    {% for project in projects %}
+                    <article class="project">
+                        <a
+                            href={{ project['img_url'] }}
+                            target="_blank">
+                            <img
+                                class="project-image"
+                                src={{ img_dir_path + project['img'] }}
+                                alt={{ project['name'] + ' Image' }}>
+                        </a>
+
+                        <h3 class="project-name dark-font">
+                            {{ project['name'] }}
+                        </h3>
+
+                        <details class="project-details dark-font">
+                            <summary>Summary</summary>
+                            <p class="project-description dark-font">
+                                {{ project['description'] }}
+                            </p>
+                        </details>
+                        {% for proj_link in project['links'] %}
+                        <p class="project-link dark-font">
+                            <a
+                                href={{ proj_link['url'] }}
+                                target="_blank">
+                                {{ proj_link['name'] }}
+                            </a>
+                        </p>
+                        {% endfor %}
+                    </article>
+                    {% endfor %}
+                </section>
+                <h3 class="remaining-heading light-font">
+                    -- Remaining --
+                </h3>
+                <section class="projects">
+                    <article class="project">
+                        <!--<figure class="project-photo">-->
+                            <img
+                                class="project-image"
+                                src={{github_img}}
+                                alt="GitHub profile Image">
+                        <!--</figure>-->
+                        <h3 class="project-name dark-font">
+                            Other Projects
+                        </h3>
+                        <!--<details class="project-details dark-font">-->
+                            <p class="project-description dark-font">
+                                Some of my other projects
+                            </p>
+                        <!--</details>-->
+                        <p class="project-link dark-font">
+                            <a
+                                href="https://github.com/bethirahul?tab=repositories"
+                                target="_blank">
+                                GitHub Repository
+                            </a>
+                        </p>
+                    </article>
+                </section>
+                <div class="empty-space"></div>
+                <div class="seperator"></div>
+                <div class="empty-space"></div>
+                <footer>
+                    <h4 class="dark-font">
+                        My links:
+                    </h4>
+                    <p class="my-links" >
+                    {% for my_link in my_links %}
+                        <span>
+                            <a
+                                href={{my_link['url']}}
+                                target="_blank">
+                                {{my_link['name']}}</a>
+                        </span>
+                        <br/>
+                    {% endfor %}
+                    </p>
+                </footer>
+            </main>
+        </div>
+    </body>
+</html>
